@@ -1,0 +1,58 @@
+.aboutContainer {
+  padding: 0 35px;
+  margin-bottom: 33px;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.title {
+  color: #f3bf99;
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  opacity: 80%;
+  letter-spacing: 1px;
+}
+
+.website {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  color: #fff;
+}
+
+.profilePic {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  object-position: 0 20%;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 33px;
+}
+
+.controls > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.emailButton {
+  background-color: #fff;
+  color: #000;
+}
+
+.linkedinButton {
+  background-color: #5093e2;
+  color: #fff;
+}
